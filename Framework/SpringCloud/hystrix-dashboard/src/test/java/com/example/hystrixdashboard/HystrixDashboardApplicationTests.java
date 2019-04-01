@@ -1,4 +1,4 @@
-package com.example.eurekaproducerfeign;
+package com.example.hystrixdashboard;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaProducerFeignApplicationTests {
+public class HystrixDashboardApplicationTests {
 
 	@Test
 	public void contextLoads() {
