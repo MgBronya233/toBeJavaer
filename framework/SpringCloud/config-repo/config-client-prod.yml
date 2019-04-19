@@ -1,1 +1,4 @@
-neo.hello=prod
+neo:
+  hello: prod
+info:
+  profile: prod

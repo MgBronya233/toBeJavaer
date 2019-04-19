@@ -1,4 +1,4 @@
-neo.hello=dev
+neo:
+  hello: dev
 info:
-  profile:
-    dev
+  profile: dev

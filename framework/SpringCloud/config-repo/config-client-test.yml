@@ -1,1 +1,4 @@
-neo.hello=test
+neo:
+  hello: test
+info:
+  profile: test
