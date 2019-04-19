@@ -1,1 +1,4 @@
 neo.hello=dev
+info:
+  profile:
+    dev
