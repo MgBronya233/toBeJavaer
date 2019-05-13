@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      name: config-client
+      profile: dev
+      label: master
+      discovery:
+        serviceId: config-server
+        enabled: true
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+server:
+  port: 20000
